@@ -92,7 +92,7 @@ public class MainPageTest {
         $(By.xpath("//input[@id='point-start']")).setValue("Concord");
         $(By.xpath("//input[@id='pickup-date']")).click();
         $(By.xpath("//a[contains(text(),'25')]")).click();
-        $(By.xpath("//input[@id='pickup-time']"))
+        $(By.xpath("//input[@id='pickup-time']")).click();
 
 
 
